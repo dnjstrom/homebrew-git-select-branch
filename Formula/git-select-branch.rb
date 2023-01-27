@@ -4,9 +4,9 @@
 class GitSelectBranch < Formula
     desc "Tiny Rust CLI to checkout a recent git branch interactively"
     homepage "https://github.com/dnjstrom/git-select-branch"
-    url "https://github.com/dnjstrom/git-select-branch/releases/download/v0.1.2/git-select-branch-mac.tar.gz"
-    sha256 "97f93f3dddd39ab74f2235a5c0aae5eef0a1a1bf574e2fe3c5fd87a0a0422042"
-    version "0.1.2"
+    url "https://github.com/dnjstrom/git-select-branch/releases/download/v0.1.3/git-select-branch-mac.tar.gz"
+    sha256 "1bfaf4b77c72517304ec1d6ceec6a708d426da65a7d31620502ad9916e2ae5ea"
+    version "0.1.3"
   
     def install
       bin.install "git-select-branch"
